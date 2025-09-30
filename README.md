@@ -1,6 +1,6 @@
 # Elizabeth Atieno — Portfolio Website
 
-**Live demo:** (add your deployed URL here after deploying)
+**Live demo:** (https://elizabeth-atieno-portfolio.netlify.app/)
 
 ## Project Overview
 This is a responsive, multipage portfolio built with HTML5, CSS3, and JavaScript. It demonstrates semantic structure, responsive design, and front-end interactivity suitable for submission as a web development assignment.
@@ -29,11 +29,11 @@ This is a responsive, multipage portfolio built with HTML5, CSS3, and JavaScript
 2. Place `ELIZABETH_OCHIENG(CURRICULUM_VITAE).pdf` in the project root if you want the CV download to work locally.
 3. Open `index.html` in your browser.
 
-## Deployment (GitHub Pages)
-1. Push your project to a GitHub repository.
-2. In repository **Settings → Pages**, select `main` (or `gh-pages`) branch and `/ (root)` folder, then save.
-3. Your site will be available at `https://<username>.github.io/<repo>/` (GitHub will display the exact URL).
-
+## Deployment (Netlify)
+1. Go to Netlify and sign up (you can use GitHub, GitLab, Bitbucket, or email).
+2. On your Netlify Dashboard, click “Add new site” → “Deploy manually”.
+3. Drag your project’s build folder (the folder that contains index.html) into the box.
+4. Netlify will host it instantly and give you a live URL 🎉.
 
 
 
