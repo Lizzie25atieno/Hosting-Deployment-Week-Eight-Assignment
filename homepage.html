@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Elizabeth Atieno — portfolio showcasing projects, skills and contact info.">
+  <title>Elizabeth Atieno | Portfolio</title>
+  <link rel="icon" href="favicon.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- accessibility skip link -->
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <a href="homepage.html" class="logo">Elizabeth Atieno</a>
+        <p class="tagline">Web Developer | Tech Enthusiast</p>
+      </div>
+
+      <!-- Hamburger for mobile -->
+      <button id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">
+        <span class="sr-only">Open navigation</span>
+        <span class="hamburger"></span>
+      </button>
+
+      <nav id="primary-nav" class="primary-nav" role="navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero hero-image">
+      <div class="hero-inner container">
+        <h1>Hi — I'm <span class="accent">Elizabeth Atieno</span></h1>
+        <p class="lead">I build thoughtful, accessible web experiences with a focus on clean design and usability.</p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">View my work</a>
+          <a href="ELIZABETH_OCHIENG(CURRICULUM_VITAE).pdf" class="btn btn-secondary" download>Download CV</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section container">
+      <h2 class="section-title">Programming & Tools</h2>
+      <div class="cards-container">
+        <article class="card">
+          <h3>HTML</h3>
+          <p>Structure and semantics for accessible pages.</p>
+        </article>
+        <article class="card">
+          <h3>CSS</h3>
+          <p>Responsive layouts, Flexbox and Grid styling.</p>
+        </article>
+        <article class="card">
+          <h3>JavaScript</h3>
+          <p>Interactivity, validation and UI behavior.</p>
+        </article>
+        <article class="card">
+          <h3>Python</h3>
+          <p>Automation and backend experiments.</p>
+        </article>
+        <article class="card">
+          <h3>SQL</h3>
+          <p>Basic data querying.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section container">
+      <h2 class="section-title">Projects</h2>
+
+      <!-- Project cards -->
+      <div class="cards-container">
+        <article class="card project-card">
+          <h3>Portfolio Website</h3>
+          <p>This responsive portfolio (the site you're viewing) — built with HTML, CSS, and JavaScript.</p>
+          <p><a href="https://lizzie25atieno.github.io/First-Hakathon-Challenge/" target="_blank" rel="noopener">Live demo</a></p>
+        </article>
+
+        <article class="card project-card">
+          <h3>Intro to HTML Project</h3>
+          <p>A basic HTML-only site from my first class in 2025.</p>
+          <p><a href="https://lizzie25atieno.github.io/july-2025-introduction-to-html-5-Lizzie25atieno/" target="_blank" rel="noopener">Live demo</a></p>
+        </article>
+      </div>
+
+      <!-- Image slider (JS-powered) -->
+      <div class="slider" aria-label="Project screenshots">
+        <button class="slider-btn prev" aria-label="Previous slide">&larr;</button>
+        <div class="slides" id="slides">
+          <div class="slide"><img src="https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=1400&q=80" alt="Sample project screenshot 1"></div>
+          <div class="slide"><img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1400&q=80" alt="Sample project screenshot 2"></div>
+        </div>
+        <button class="slider-btn next" aria-label="Next slide">&rarr;</button>
+
+        <div class="slider-dots" id="slider-dots" aria-hidden="false"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 Elizabeth Atieno. All rights reserved.</p>
+      <p class="small">Built with HTML, CSS & JavaScript.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

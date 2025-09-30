@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Contact Elizabeth Atieno — email, phone and contact form.">
+  <title>Contact — Elizabeth Atieno</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#contact-main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <a href="homepage.html" class="logo">Elizabeth Atieno</a>
+      </div>
+
+      <button id="nav-toggle-3" class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">
+        <span class="sr-only">Open navigation</span>
+        <span class="hamburger"></span>
+      </button>
+
+      <nav id="primary-nav" class="primary-nav" role="navigation">
+        <ul>
+          <li><a href="homepage.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contact-main" class="container">
+    <section class="section contact-section">
+      <h1>Contact Me</h1>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p><strong>Email</strong><br>elizabethatienoochieng2019@gmail.com</p>
+          <p><strong>Phone</strong><br>+254712544248</p>
+          <p><strong>Location</strong><br>Nairobi, Kenya</p>
+        </div>
+
+        <form id="contact-form" class="contact-form" action="https://formspree.io/f/maypwlrb" method="POST" novalidate>
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" required minlength="2" />
+
+          <label for="email">Email</label>
+          <input id="email" name="_replyto" type="email" required />
+
+          <label for="phone">Phone (optional)</label>
+          <input id="phone" name="phone" type="tel" pattern="^\+?\d{7,15}$" placeholder="+254712345678" />
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required minlength="10"></textarea>
+
+          <!-- area for JS validation messages -->
+          <div id="form-messages" aria-live="polite" class="form-messages"></div>
+
+          <button type="submit" class="btn btn-primary">Send message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 Elizabeth Atieno.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
