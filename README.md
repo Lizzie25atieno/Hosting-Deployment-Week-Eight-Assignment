@@ -6,7 +6,7 @@
 This is a responsive, multipage portfolio built with HTML5, CSS3, and JavaScript. It demonstrates semantic structure, responsive design, and front-end interactivity suitable for submission as a web development assignment.
 
 ## Pages
-- `homepage.html` — Home: hero, skills, projects and an image slider.
+- `index.html` — Home: hero, skills, projects and an image slider.
 - `about.html` — About: biography, education and interests.
 - `contact.html` — Contact: contact details and a contact form (Formspree).
 
@@ -27,7 +27,7 @@ This is a responsive, multipage portfolio built with HTML5, CSS3, and JavaScript
 ## How to run locally
 1. Clone the repository or download files.
 2. Place `ELIZABETH_OCHIENG(CURRICULUM_VITAE).pdf` in the project root if you want the CV download to work locally.
-3. Open `homepage.html` in your browser.
+3. Open `index.html` in your browser.
 
 ## Deployment (GitHub Pages)
 1. Push your project to a GitHub repository.
